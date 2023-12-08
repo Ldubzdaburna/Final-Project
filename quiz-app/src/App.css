@@ -1,0 +1,72 @@
+
+.App {
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: beige;
+}
+.Menu{
+  width: 750px;
+  height: 750px;
+  border-radius: 50px;
+  background-color: #003459;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Menu h1{
+margin-bottom:150px;
+}
+
+.Menu button , .Quiz button{
+  width: 300px;
+  height:50px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+.Quiz , .Score{
+  width: 750px;
+  height: 750px;
+  border-radius: 10px;
+  background-color:#003459;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Menu,.Quiz,.Score{
+color: white;
+}
+
+.options{
+width:100%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+
+}
+.highlight:focus{
+  background-color: #00171f;
+  color: white;
+}
+.nextQuestion{
+  background-color: #007ea7;
+}
+
+.userName{
+  justify-content: center;
+  font-size: 30px;
+  margin-bottom: 150px;
+}
+.userName button{
+  width: 200px;
+  height: 25px;
+}
+
